@@ -8,7 +8,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="col-span-1 md:col-span-2">
-            <h3 className="text-2xl font-bold text-rose-400 mb-4">Hijab Haven</h3>
+            <h3 className="text-2xl font-bold text-rose-400 mb-4">dz hijab</h3>
             <p className="text-gray-300 mb-6 max-w-md">
               Your premier destination for beautiful, high-quality hijabs. We offer a curated collection 
               of silk, cotton, chiffon, and jersey hijabs for every occasion and style preference.
@@ -102,7 +102,7 @@ export function Footer() {
         {/* Copyright */}
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
           <p className="text-gray-400">
-            © 2024 Hijab Haven. All rights reserved. | 
+            © 2024 dz hijab. All rights reserved. | 
             <Link href="/privacy" className="hover:text-rose-400 transition-colors ml-1">
               Privacy Policy
             </Link>

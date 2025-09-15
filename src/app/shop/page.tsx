@@ -11,7 +11,7 @@ export default function ShopPage() {
   const [products] = useState<Product[]>(sampleProducts);
   const [filters, setFilters] = useState({
     category: '',
-    priceRange: [0, 200],
+    priceRange: [0, 200] as [number, number],
     colors: [] as string[],
     inStock: false,
   });
@@ -19,7 +19,7 @@ export default function ShopPage() {
   const [searchQuery, setSearchQuery] = useState('');
 
   const filteredAndSortedProducts = useMemo(() => {
-    let filtered = products.filter(product => {
+    const filtered = products.filter(product => {
       // Search filter
       if (searchQuery && !product.name.toLowerCase().includes(searchQuery.toLowerCase()) &&
           !product.description.toLowerCase().includes(searchQuery.toLowerCase())) {

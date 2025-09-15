@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
-import { Card, CardContent } from '@/components/ui/card';
+// import { Card, CardContent } from '@/components/ui/card';
 import { 
   LayoutDashboard, 
   Package, 
@@ -34,7 +34,7 @@ export default function AdminLayout({
               <div className="w-8 h-8 bg-rose-600 rounded-lg flex items-center justify-center">
                 <Package className="h-5 w-5 text-white" />
               </div>
-              <h1 className="text-xl font-bold text-gray-900">Hijab Haven</h1>
+              <h1 className="text-xl font-bold text-gray-900">dz hijab</h1>
             </div>
             
             <nav className="space-y-2">

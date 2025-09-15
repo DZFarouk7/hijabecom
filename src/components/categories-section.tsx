@@ -102,7 +102,7 @@ export function CategoriesSection() {
               </div>
               <h3 className="text-lg font-semibold text-gray-900 mb-2">Easy Returns</h3>
               <p className="text-gray-600">
-                30-day return policy. If you're not satisfied, we'll make it right.
+                30-day return policy. If you&apos;re not satisfied, we&apos;ll make it right.
               </p>
             </div>
           </div>

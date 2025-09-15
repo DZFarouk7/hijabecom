@@ -1,4 +1,4 @@
-# Hijab Haven - Premium Women's Hijab E-commerce
+# dz hijab
 
 A complete e-commerce website for women's hijabs built with Next.js, TypeScript, and Tailwind CSS. This project includes both a customer-facing store and an admin dashboard for managing products.
 

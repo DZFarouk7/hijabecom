@@ -25,7 +25,7 @@ export function Header() {
           {/* Logo */}
           <div className="flex-shrink-0">
             <Link href="/" className="flex items-center">
-              <span className="text-2xl font-bold text-rose-600">Hijab Haven</span>
+              <span className="text-2xl font-bold text-rose-600">dz hijab</span>
             </Link>
           </div>
 

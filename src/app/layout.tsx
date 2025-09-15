@@ -7,7 +7,7 @@ import { Footer } from "@/components/footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Hijab Haven - Premium Women's Hijabs",
+  title: "dz hijab",
   description: "Discover our beautiful collection of premium hijabs for every occasion. Silk, cotton, chiffon, and jersey hijabs in various colors and styles.",
 };
 

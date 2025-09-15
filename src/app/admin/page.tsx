@@ -66,7 +66,7 @@ export default function AdminDashboard() {
       <div className="flex justify-between items-center">
         <div>
           <h1 className="text-3xl font-bold text-gray-900">Dashboard</h1>
-          <p className="text-gray-600">Welcome back! Here's what's happening with your store.</p>
+          <p className="text-gray-600">Welcome back! Here&apos;s what&apos;s happening with your store.</p>
         </div>
         <Link href="/admin/products/new">
           <Button className="bg-rose-600 hover:bg-rose-700 text-white">

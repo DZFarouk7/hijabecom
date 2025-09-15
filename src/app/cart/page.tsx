@@ -2,11 +2,11 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
+// import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Minus, Plus, Trash2, ArrowLeft, ShoppingBag } from 'lucide-react';
-import { CartItem, Product } from '@/lib/types';
+import { CartItem } from '@/lib/types';
 import { sampleProducts } from '@/lib/data';
 import { formatPrice } from '@/lib/utils';
 
@@ -66,7 +66,7 @@ export default function CartPage() {
               <ShoppingBag className="h-12 w-12 text-gray-400" />
             </div>
             <h1 className="text-3xl font-bold text-gray-900 mb-4">Your cart is empty</h1>
-            <p className="text-gray-600 mb-8">Looks like you haven't added any items to your cart yet.</p>
+            <p className="text-gray-600 mb-8">Looks like you haven&apos;t added any items to your cart yet.</p>
             <Link href="/shop">
               <Button size="lg" className="bg-rose-600 hover:bg-rose-700 text-white">
                 Continue Shopping

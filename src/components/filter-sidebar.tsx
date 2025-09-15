@@ -15,7 +15,12 @@ interface FilterSidebarProps {
     colors: string[];
     inStock: boolean;
   };
-  onFiltersChange: (filters: any) => void;
+  onFiltersChange: (filters: {
+    category: string;
+    priceRange: [number, number];
+    colors: string[];
+    inStock: boolean;
+  }) => void;
   products: Product[];
 }
 
